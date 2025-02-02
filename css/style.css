@@ -42,10 +42,12 @@
 .nav-link{
     /* color: white; */
     background: rgb(244,249,248);
-background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(16,209,177,1) 100%);
+    background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(16,209,177,1) 100%);
     transition: all 2s linear;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
 }
 .nav-link:hover{
     /* color: rgb(179, 178, 178); */
@@ -111,7 +113,7 @@ background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(16,209,177,1) 1
     background-repeat: no-repeat;
     object-fit: cover;
     border: 10px solid white;
-    box-shadow: 
+     box-shadow: 
     0 0 16px white,
     inset 0 0 16px white,
     0 0 32px rgb(62, 244, 250),
@@ -185,7 +187,7 @@ background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(16,209,177,1) 1
 }
 .dynamicText span{
     background: rgb(244,249,248);
-background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 100%);
+    background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -241,19 +243,66 @@ background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 1
 /*--------------------- contact section  -------------------------*/
 #contactPart{
     color: white;
-    padding-top: 50px;
+    padding: 50px 0;
+}
+#contactPart h1{
+    display: inline;
+    background: rgb(244,249,248);
+    background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid rgba(31,200,254,1);
+    font-size: 30px;
+   
 }
 #contactPart i{
-    color: rgb(98, 172, 138);
+    background: rgb(244,249,248);
+    background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+#contactPart h2{
+    background: rgb(244,249,248);
+    background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+#contactPart p{
+    font-size: 16px;
+    font-weight: 400;
+
 }
 .qsPart{
     padding-top: 50px;
 }
+.sendingText h2{
+    background: rgb(244,249,248);
+    background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-weight: 700;
+
+}
 .contactLink{
     padding-top: 50px;
 }
+.contactLink i{
+    font-size: 40px;
+    padding: 0 0 10px;
+}
+
+.contactLink h3{
+    font-size:20px;
+    font-weight: 600;
+    color: rgb(0, 204, 255);
+}
 .contactLink a{
-    color: white;
+  color: white;
 }
 .sendingText{
     padding-top: 50px;
@@ -265,7 +314,163 @@ background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 1
     gap: 10px;
 }
 .editInput{
+    border: 2px solid white;
+    box-shadow: 
+    0 0 10px rgb(62, 244, 250);
+    /* inset 0 0 5px rgb(62, 244, 250); */
+    /* 0 0 10px rgb(62, 244, 250); */
+    /* inset 0 0 10px rgb(62, 244, 250); */
+    /* transition: 2s; */
     padding: 8px;
     font-size: 15px;
     border-radius: 10px;
 }
+.customBtn{
+    padding: 8px;
+    border-radius: 10px;
+    background:rgb(0, 204, 255);
+    border: 1px solid white;
+}
+
+/*------------------------ service part  -----------------------------*/
+
+#servicePart{
+    padding: 50px 0;
+ }
+ #servicePart .row{
+    text-align: center;
+    margin-top: 50px;
+    row-gap: 24px;
+ }
+ #servicePart .row .child{
+    cursor: pointer;
+   border-radius: 20px;
+   border: 4px solid white;
+   box-shadow: 
+    0 0 5px white,
+    inset 0 0 5px rgb(62, 244, 250);
+    /* 0 0 10px rgb(62, 244, 250); */
+    /* inset 0 0 10px rgb(62, 244, 250); */
+    /* transition: 2s; */
+   padding: 50px 30px 47px;
+   transition: all linear 0.4s;
+ }
+
+ #servicePart .row .child:hover{
+    box-shadow: 
+    0 0 10px white,
+    /* inset 0 0 10px white, */
+    0 0 15px rgb(62, 244, 250);
+    /* inset 0 0 10px rgb(62, 244, 250); */
+    transition: 2s;
+    /* -webkit-box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(255, 253, 253, 0.25);
+    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.25); */
+       
+}
+
+ #servicePart .row img{
+    margin-bottom: 40px;   
+}
+ #servicePart .row h3{
+    font-size: 20px;
+    font-weight: 700;
+    background: rgb(244,249,248);
+    background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto 20px;
+}
+ #servicePart .row p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 26px;
+    margin: 0 auto;
+}
+#servicePart .title{
+    text-align: center;
+}
+#servicePart .title h2{
+    max-width: 492px;
+    font-size:30px;
+    font-weight: 700;
+    background: rgb(244,249,248);
+    background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto 20px;
+}
+#servicePart .title p{
+    max-width: 609px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+/*------------------------- work part  ----------------------------*/
+#workPart{
+    padding: 50px 0;
+
+}
+#workPart .row{
+    row-gap: 20px;
+    padding: 60px 0;
+}
+#workPart .child{
+    cursor: pointer;
+    border: 4px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 
+    0 0 10px white,
+    inset 0 0 10px rgb(62, 244, 250),
+    0 0 20px rgb(62, 244, 250);
+    /* inset 0 0 20px rgb(62, 244, 250); */
+    /* transition: 2s; */
+}
+
+#workPart .row .child img{
+    max-width: 100%;
+   border-radius: 0 0 20px 20px;
+}
+#workPart .row .child h3{
+    font-size: 22px;
+    font-weight: 700;
+    background: rgb(244,249,248);
+    background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+}
+#workPart .row .child p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+#workPart .title{
+    text-align: center;
+}
+#workPart .title h2{
+    max-width: 492px;
+    font-size:30px;
+    font-weight: 700;
+    background: rgb(244,249,248);
+    background: radial-gradient(circle, rgba(244,249,248,1) 0%, rgba(31,200,254,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto 20px;
+}
+#workPart .title p{
+    max-width: 609px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+ 
